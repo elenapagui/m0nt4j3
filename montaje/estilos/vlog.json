@@ -1,0 +1,18 @@
+{
+  "nombre": "vlog",
+  "descripcion": "Vlog / día a día: ritmo más natural (se respetan más las pausas), zoom alterno suave, subtítulos opcionales y look cálido.",
+  "cuts": {"min_pause": 0.8, "pad_before": 0.15, "pad_after": 0.22, "snap_silence": true},
+  "zoom": {"mode": "alternate", "scale": 1.08, "min_interval": 5.0, "push_scale": 1.06, "punch_scale": 1.18, "anchor": [0.0, 0.2]},
+  "captions": {
+    "enabled": true, "max_chars": 42, "max_dur": 4.5, "uppercase": false, "punctuation": false,
+    "font_size": 7, "color": "#FFFFFF", "bold": false,
+    "stroke": true, "stroke_color": "#000000", "stroke_width": 0.06,
+    "highlight_color": "#FFB86B", "highlight_numbers": false,
+    "position_y": -0.8
+  },
+  "titles": {"font_size": 13, "color": "#FFFFFF", "bold": true, "stroke": true, "stroke_color": "#000000", "position_y": 0.0, "duration": 2.5, "sfx": "whoosh"},
+  "keywords": {"font_size": 10, "color": "#FFFFFF", "bold": true, "stroke": true, "stroke_color": "#000000", "position_y": 0.6, "sfx": null},
+  "sfx": {"volume": 0.35},
+  "music": {"volume": 0.09, "fade_in": 2.0, "fade_out": 4.0},
+  "color": {"look": "calido", "strength": 0.6}
+}

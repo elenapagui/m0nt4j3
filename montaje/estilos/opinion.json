@@ -1,0 +1,18 @@
+{
+  "nombre": "opinion",
+  "descripcion": "Vídeo de opinión a cámara: ritmo ágil, cortes ajustados, zoom alterno para ocultar los saltos, subtítulos con palabras clave resaltadas y títulos de capítulo.",
+  "cuts": {"min_pause": 0.45, "pad_before": 0.10, "pad_after": 0.14, "snap_silence": true},
+  "zoom": {"mode": "alternate", "scale": 1.12, "min_interval": 3.0, "push_scale": 1.08, "punch_scale": 1.25, "anchor": [0.0, 0.25]},
+  "captions": {
+    "enabled": true, "max_chars": 38, "max_dur": 4.0, "uppercase": false, "punctuation": false,
+    "font_size": 8, "color": "#FFFFFF", "bold": true,
+    "stroke": true, "stroke_color": "#000000", "stroke_width": 0.08,
+    "highlight_color": "#FFD400", "highlight_numbers": true,
+    "position_y": -0.78
+  },
+  "titles": {"font_size": 14, "color": "#FFFFFF", "bold": true, "stroke": true, "stroke_color": "#000000", "position_y": 0.0, "duration": 2.2, "sfx": "whoosh"},
+  "keywords": {"font_size": 11, "color": "#FFD400", "bold": true, "stroke": true, "stroke_color": "#000000", "position_y": 0.6, "sfx": "pop"},
+  "sfx": {"volume": 0.45},
+  "music": {"volume": 0.07, "fade_in": 1.5, "fade_out": 3.0},
+  "color": {"look": "natural", "strength": 0.7}
+}

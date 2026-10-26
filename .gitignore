@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# material de trabajo de cada vídeo (transcripciones, planes, previsualizaciones)
+trabajos/
+referencias/
+# sonidos generados (se recrean con `montaje sonidos`); los tuyos sí puedes versionarlos
+sonidos/*.wav
+!sonidos/.gitkeep
+.DS_Store

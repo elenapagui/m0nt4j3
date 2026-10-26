@@ -1,0 +1,18 @@
+{
+  "nombre": "sobrio",
+  "descripcion": "Charla larga / análisis: solo limpieza de silencios y tomas, sin zoom alterno ni efectos, subtítulos discretos. Ideal si luego quieres editar a mano.",
+  "cuts": {"min_pause": 0.7, "pad_before": 0.14, "pad_after": 0.2, "snap_silence": true},
+  "zoom": {"mode": "none", "scale": 1.0, "min_interval": 0, "push_scale": 1.05, "punch_scale": 1.12, "anchor": [0.0, 0.2]},
+  "captions": {
+    "enabled": false, "max_chars": 45, "max_dur": 5.0, "uppercase": false, "punctuation": true,
+    "font_size": 6, "color": "#FFFFFF", "bold": false,
+    "stroke": false, "stroke_color": "#000000", "stroke_width": 0.05,
+    "highlight_color": "#FFFFFF", "highlight_numbers": false,
+    "position_y": -0.82
+  },
+  "titles": {"font_size": 12, "color": "#FFFFFF", "bold": true, "stroke": false, "stroke_color": "#000000", "position_y": 0.0, "duration": 2.5, "sfx": null},
+  "keywords": {"font_size": 9, "color": "#FFFFFF", "bold": true, "stroke": false, "stroke_color": "#000000", "position_y": 0.6, "sfx": null},
+  "sfx": {"volume": 0.3},
+  "music": {"volume": 0.06, "fade_in": 2.0, "fade_out": 4.0},
+  "color": {"look": "natural", "strength": 0.5}
+}
